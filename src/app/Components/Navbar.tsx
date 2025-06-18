@@ -34,7 +34,7 @@ export default function Navbar() {
     <header
       className={clsx(
         "fixed top-0 w-full z-50 transition-all backdrop-blur-lg",
-        scrolled ? "bg-white/80 shadow-md dark:bg-gray-900/80" : "bg-transparent"
+        scrolled ? "" : "bg-transparent"
       )}
     >
       <div className="max-w-6xl mx-auto px-4 py-5 flex items-center justify-between">
